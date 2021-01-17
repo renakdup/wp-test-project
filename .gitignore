@@ -1,0 +1,6 @@
+.idea/
+mutagen.yml.lock
+/project/*
+/docker-data/*
+
+.env
