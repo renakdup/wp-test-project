@@ -1,6 +1,11 @@
 .idea/
 mutagen.yml.lock
-/project/*
-/docker-data/*
+
+docker-data/*
+!docker-data/.keep
 
 .env
+
+/project/wp-content/themes/understrap-master
+
+
