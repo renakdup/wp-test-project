@@ -7,4 +7,3 @@ docker-data/*
 .env
 
 /public/wp-content/cache/*
-/project/wp-content/themes/understrap-master
