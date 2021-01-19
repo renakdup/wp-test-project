@@ -1,15 +1,21 @@
 <?php
 
-namespace HH\PostTypes;
+namespace HH\PostTypes\Realty;
 
 use HH\Core\PostType;
 
 class Realty extends PostType
 {
-    const POST_TYPE = 'hh_realty';
-    const SLUG = 'realty';
+    public const POST_TYPE = 'hh_realty';
+    public const SLUG = 'realty';
 
-    const NUMBER_POSTS = 9;
+    public const NUMBER_POSTS = 9;
+
+    public const FIELD__AREA = 'area';
+    public const FIELD__PRICE = 'price';
+    public const FIELD__ADDRESS = 'address';
+    public const FIELD__LIVING_AREA = 'living_area';
+    public const FIELD__FLOOR = 'floor';
 
     public static function init()
     {
@@ -70,7 +76,7 @@ class Realty extends PostType
             'show_in_menu' => true,
             'show_in_admin_bar' => true,
             'menu_position' => 48,
-            'supports' => ['title', 'editor', 'thumbnail', 'page-attributes'],
+            'supports' => ['title', 'editor', 'thumbnail'],
             //'menu_icon' => HH_ADMIN_ICONS_URI . '/bookmark.png'
         ];
 

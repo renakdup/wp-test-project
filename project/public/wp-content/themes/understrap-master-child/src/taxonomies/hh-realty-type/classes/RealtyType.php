@@ -1,12 +1,12 @@
 <?php
 
-namespace HH\Taxonomies;
+namespace HH\Taxonomies\RealtyType;
 
-use HH\PostTypes\Realty;
+use HH\PostTypes\Realty\Realty;
 
 class RealtyType
 {
-    const TAX_NAME = 'hh_team_category';
+    const TAX_NAME = 'hh_realty_type';
     const SLUG = 'realty-type';
 
     public function init()

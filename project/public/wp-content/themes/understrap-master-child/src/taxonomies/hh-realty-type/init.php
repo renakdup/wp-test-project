@@ -1,5 +1,5 @@
 <?php
 
-use HH\Taxonomies\RealtyType;
+use HH\Taxonomies\RealtyType\RealtyType;
 
 RealtyType::init();

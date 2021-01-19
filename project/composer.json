@@ -18,8 +18,9 @@
     "autoload": {
         "psr-4": {
             "HH\\Core\\": "public/wp-content/themes/understrap-master-child/src/core",
-            "HH\\PostTypes\\": "public/wp-content/themes/understrap-master-child/src/post-types/hh-realty/classes",
-            "HH\\Taxonomies\\": "public/wp-content/themes/understrap-master-child/src/taxonomies/hh-realty-type/classes"
+            "HH\\PostTypes\\Realty\\": "public/wp-content/themes/understrap-master-child/src/post-types/hh-realty/classes",
+            "HH\\Taxonomies\\RealtyType\\": "public/wp-content/themes/understrap-master-child/src/taxonomies/hh-realty-type/classes",
+            "HH\\Taxonomies\\City\\": "public/wp-content/themes/understrap-master-child/src/taxonomies/hh-city/classes"
         },
         "files": [
             "public/wp-content/themes/understrap-master-child/src/core/helpers.php"

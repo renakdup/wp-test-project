@@ -5,3 +5,4 @@ require_once __DIR__ . '/src/post-types/hh-realty/init.php';
 
 // init taxonomies
 require_once __DIR__ . '/src/taxonomies/hh-realty-type/init.php';
+require_once __DIR__ . '/src/taxonomies/hh-city/init.php';
