@@ -6,4 +6,5 @@ docker-data/*
 
 .env
 
-/public/wp-content/cache/*
+/project/public/wp-content/cache/
+/project/vendor/

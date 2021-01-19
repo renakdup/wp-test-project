@@ -1,0 +1,32 @@
+{
+    "name": "renakdup/wp-example-project",
+    "authors": [
+        {
+            "name": "renakdup",
+            "email": "renakdup@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^5.1",
+        "tightenco/collect": "^7.12"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5",
+        "phpunit/phpunit": "^9.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "HH\\Core\\": "public/wp-content/themes/understrap-master-child/src/core",
+            "HH\\PostTypes\\": "public/wp-content/themes/understrap-master-child/src/post-types/hh-realty/classes",
+            "HH\\Taxonomies\\": "public/wp-content/themes/understrap-master-child/src/taxonomies/hh-realty-type/classes"
+        },
+        "files": [
+            "public/wp-content/themes/understrap-master-child/src/core/helpers.php"
+        ]
+    },
+    "scripts": {
+        "phpcs": "vendor/bin/phpcs",
+        "phpcbf": "vendor/bin/phpcbf",
+        "phpunit": "vendor/bin/phpunit"
+    }
+}
