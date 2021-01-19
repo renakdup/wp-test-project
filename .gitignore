@@ -5,6 +5,7 @@ docker-data/*
 !docker-data/.keep
 
 .env
+my-db.sql
 
 /project/public/wp-content/cache/
 /project/public/wp-content/uploads/
